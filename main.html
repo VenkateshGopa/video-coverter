@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Media Converter App</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <br><br>
+            <div id="welcome">
+                <h1 style="text-align: center;">Convert Your mp4 files to m3u8</h1>
+                <p style="text-align: center;">To continue click on new project button </p>
+                <br>
+                <br>
+                <button id="newproject" class="btn btn-block btn-warning">New Project</button>
+            </div>
+            
+            <!-- <h1 style="text-align: center;">Media Converter</h1>
+            <h3 style="text-align: center;"> (mp4 To m3U8)</h3> -->
+            <div id="selectfile" >
+            <br>
+            <h2 style="text-align: center;"> Select video(mp4) file</h2>
+            <br>
+            <button class="btn btn-block btn-danger" id="upload">Select File & Convert</button>
+            <br><br>
+            <button class="btn btn-block btn-warning" id="new">Click here to Create new Project</button>
+            <div id="info"></div>
+            </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="renderer.js"></script>
+</html>
